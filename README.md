@@ -36,10 +36,9 @@ See the demo at: [https://dokie.mergesoft.dev/dokie](https://dokie.mergesoft.dev
 > - Current hostname
 > - Endpoint specific: Path/Query parameters, Headers and Postscript
 
-## Screenshots
+## Screenshot
 
 ![Screenshot 1](https://github.com/mergehez/dokie/blob/main/ui/src/assets/screenshot1.png?raw=true)
-![Screenshot 2](https://github.com/mergehez/dokie/blob/main/ui/src/assets/screenshot2.png?raw=true)
 
 ## Contributing
 
