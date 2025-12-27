@@ -2,6 +2,8 @@
 
 A Laravel package to serve the Dokie API documentation UI.
 
+See the main repository at: [https://github.com/mergehez/dokie](https://github.com/mergehez/dokie)
+
 See the demo at: [https://dokie.mergesoft.dev/dokie](https://dokie.mergesoft.dev/dokie).
 
 ## Installation
