@@ -1,5 +1,5 @@
 {
-  "version": "0.0.11",
+  "version": "0.0.12",
   "name": "mergehez/dokie",
   "description": "An API Documentation tool for your APIs (Dokie for Laravel)",
   "type": "library",
