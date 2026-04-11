@@ -10,14 +10,14 @@ See the demo at: [https://dokie.mergesoft.dev/dokie](https://dokie.mergesoft.dev
 
 1. (If you haven't already) Install an OpenAPI documentation generator package, such as [dedoc/scramble](https://github.com/dedoc/scramble)
 2. Require Dokie via Composer:
-   ```bash
-   composer require mergehez/dokie
-   ```
+    ```bash
+    composer require mergehez/dokie
+    ```
 3. (Optional) Publish config:
-   ```bash
-   php artisan vendor:publish --tag=dokie-config
-   ```
-   > see [config/dokie.php](./config/dokie.php) for configuration options.
+    ```bash
+    php artisan vendor:publish --tag=dokie-config
+    ```
+    > see [config/dokie.php](./config/dokie.php) for configuration options.
 4. Visit `/dokie` in your browser.
 
 ## Features
@@ -32,6 +32,7 @@ See the demo at: [https://dokie.mergesoft.dev/dokie](https://dokie.mergesoft.dev
 - **Endpoint Configuration**: Easily add path/query parameters, headers and body to requests. You can use environment variables just like in Postman.
 
 > Note that changes are stored in your local machine and not shared with other people using the same project. Following information is stored in the browser's indexedDB:
+>
 > - Environment variables
 > - Global headers
 > - Favorite endpoints
