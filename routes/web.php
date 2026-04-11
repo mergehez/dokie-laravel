@@ -31,11 +31,11 @@ Route::get('/dokie', function () {
     ]);
 
     $finalHtml = str_replace(
-        '<script>/*inject-area*/</script>',
-        "<script>
+        '/*dokie-inject-area*/',
+        "
             window.dokie = $windowDokie;
             console.log(window.dokie);
-        </script>",
+        ",
         $html
     );
     return Response::make($finalHtml, 200, ['Content-Type' => 'text/html']);
